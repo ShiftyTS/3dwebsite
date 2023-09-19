@@ -170,51 +170,81 @@ const projects = [
     {
         name: "ForTwo",
         description:
-            "Created a daily question‑answering activity iOS app for couples to learn more about each other",
+            "ForTwo is a daily question‑answering activity iOS app geared towards couples to encourage communication and growth through thought-provoking questions.",
         tags: [
-
+            {
+                name: "Swift",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Xcode",
+                color: "green-text-gradient",
+            },
+            {
+                name: "SwiftUI",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Firebase",
+                color: "green-text-gradient",
+            },
         ],
         image: ForTwo,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/ShiftyTS/ForTwo",
     },
     {
         name: "FiTracker",
         description:
-            "Developed a MERN stack web application that allows users to create accounts and track their past workouts",
+            "FiTracker is a fitness-tracking MERN stack web application engineered to empower users to document workouts to better monitor their fitness journey.",
         tags: [
             {
-                name: "react",
+                name: "Javascript",
                 color: "blue-text-gradient",
             },
             {
-                name: "javascript",
-                color: "blue-text-gradient",
+                name: "React",
+                color: "green-text-gradient",
             },
             {
-                name: "tailwind",
-                color: "pink-text-gradient",
+                name: "Tailwind CSS",
+                color: "green-text-gradient",
             },
             {
                 name: "mongodb",
                 color: "green-text-gradient",
             },
             {
-                name: "restapi",
-                color: "green-text-gradient",
+                name: "RESTapi",
+                color: "pink-text-gradient",
             },
         ],
         image: FiTracker,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/ShiftyTS/FiTracker",
     },
     {
         name: "COVID‑6ix",
         description:
-            "Built a web scraper to determine current COVID‑19 statistics for the Greater Toronto Area using Selenium",
+            "COVID-6ix is a website built using Python and Selenium which gathers and displays current COVID‑19 statistics for the Greater Toronto Area.",
         tags: [
-
+            {
+                name: "Python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "HTML",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Selenium",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Web scraper",
+                color: "pink-text-gradient",
+            },
         ],
         image: COVID6ix,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/ShiftyTS/COVID-6ix",
     },
 ];
 

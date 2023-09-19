@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import ForTwo from "./fortwo.png";
+import ForTwo from "./ForTwo.png";
 import FiTracker from "./FiTracker.png";
 import COVID6ix from "./COVID6ix.png";
 import Hatch from "./company/hatch.png";

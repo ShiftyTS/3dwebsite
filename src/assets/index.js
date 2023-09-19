@@ -11,6 +11,11 @@ import FiTracker from "./FiTracker.png";
 import COVID6ix from "./COVID6ix.png";
 import Hatch from "./company/hatch.png";
 import Picture from "./sunglasses.png";
+import Resume from "./resume.png";
+import Email from "./email.png";
+import LinkedIn from "./linkedin.png"
+import GithubIcon from "./githubicon.png"
+import ResumePDF from "./resumeexternal.pdf";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -69,4 +74,9 @@ export {
   Java,
   Linux,
   Swift,
+  Resume,
+  Email,
+  LinkedIn,
+  GithubIcon,
+  ResumePDF,
 };

@@ -8,7 +8,7 @@ const Snow = ({ isMobile }) => {
     const mesh = useRef()
 
     useFrame(() => {
-        // mesh.current.rotation.y += 0.003
+        mesh.current.rotation.y += 0.003
     })
     return (
         <mesh ref={mesh}>
@@ -27,7 +27,7 @@ const Winter = ({ isMobile }) => {
     const mesh = useRef()
 
     useFrame(() => {
-        // mesh.current.rotation.y += 0.003
+        mesh.current.rotation.y += 0.003
     })
 
     return (

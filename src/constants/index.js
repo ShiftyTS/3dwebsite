@@ -16,9 +16,18 @@ import {
     figma,
     docker,
     threejs,
-    // fortwo,
-    // FiTracker,
-    // COVID6ix,
+    Hatch,
+    ForTwo,
+    FiTracker,
+    COVID6ix,
+    C,
+    Cplusplus,
+    dotnet,
+    Firebase,
+    Java,
+    Linux,
+    Swift,
+    Csharp,
 } from "../assets";
 
 export const navLinks = [
@@ -27,7 +36,7 @@ export const navLinks = [
         title: "About",
     },
     {
-        id: "work",
+        id: "experience",
         title: "Work",
     },
     {
@@ -55,15 +64,7 @@ const services = [
     },
 ];
 
-const technologies = [
-    {
-        name: "HTML 5",
-        icon: html,
-    },
-    {
-        name: "CSS 3",
-        icon: css,
-    },
+const languages = [
     {
         name: "JavaScript",
         icon: javascript,
@@ -73,12 +74,39 @@ const technologies = [
         icon: typescript,
     },
     {
-        name: "React JS",
-        icon: reactjs,
+        name: "HTML",
+        icon: html,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
+        name: "CSS",
+        icon: css,
+    },
+    {
+        name: "Swift",
+        icon: Swift,
+    },
+    {
+        name: "C",
+        icon: C,
+    },
+    {
+        name: "C++",
+        icon: Cplusplus,
+    },
+    {
+        name: "C#",
+        icon: Csharp,
+    },
+    {
+        name: "Java",
+        icon: Java,
+    },
+];
+
+const technologies = [
+    {
+        name: "React JS",
+        icon: reactjs,
     },
     {
         name: "Tailwind CSS",
@@ -101,161 +129,93 @@ const technologies = [
         icon: git,
     },
     {
-        name: "figma",
-        icon: figma,
+        name: "Linux",
+        icon: Linux,
     },
     {
-        name: "docker",
-        icon: docker,
+        name: "Firebase",
+        icon: Firebase,
     },
 ];
+
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: css,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        title: "Software Developer Intern",
+        company_name: "Hatch Ltd.",
+        icon: Hatch,
+        iconBg: "#e0e0e0",
+        date: "May 2023 - Aug 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed an AI‑powered PDF chatbot MERN app that utilizes semantic search to accurately interpret user queries and contextual information, simplifying and reducing average manual search times by 35%",
+            "Built an intuitive UI in TypeScript using React and Tailwind CSS featuring file uploading and a real‑time chat window for users to engage in conversations with the uploaded PDFs",
+            "Powered the chatbot’s conversational capabilities by leveraging the Azure OpenAI API to produce and compare word embeddings generated from PDF text and user queries",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: css,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        title: "Software Developer Intern",
+        company_name: "Hatch Ltd.",
+        icon: Hatch,
+        iconBg: "#e0e0e0",
+        date: "July 2022 - Aug 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed a dynamic Tkinter GUI in Python to streamline the usage of a smelting calibration tool",
+            "Created informative data visualizations using Matplotlib to simplify the interpretation of calibration results",
+            "Shipped an optimized version of a smelting calibration script which reduced execution time by 87.5% by integrating parallel processing",
         ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: css,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: css,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-];
-
-const testimonials = [
-    {
-        testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-        testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
 ];
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "ForTwo",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Created a daily question‑answering activity iOS app for couples to learn more about each other",
+        tags: [
+
+        ],
+        image: ForTwo,
+        source_code_link: "https://github.com/",
+    },
+    {
+        name: "FiTracker",
+        description:
+            "Developed a MERN stack web application that allows users to create accounts and track their past workouts",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
             },
             {
                 name: "mongodb",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: css,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Job IT",
-        description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
                 name: "restapi",
                 color: "green-text-gradient",
             },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
         ],
-        image: css,
+        image: FiTracker,
         source_code_link: "https://github.com/",
     },
     {
-        name: "Trip Guide",
+        name: "COVID‑6ix",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "Built a web scraper to determine current COVID‑19 statistics for the Greater Toronto Area using Selenium",
         tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
+
         ],
-        image: css,
+        image: COVID6ix,
         source_code_link: "https://github.com/",
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, languages, technologies, experiences, projects };

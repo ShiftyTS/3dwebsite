@@ -22,7 +22,6 @@ const Snow = ({ isMobile }) => {
     )
 }
 const Winter = ({ isMobile }) => {
-    // const winter = useGLTF('/winter_scene/scene.gltf')
     const winter = useGLTF('winter_scene.glb')
     const mesh = useRef()
 
@@ -35,31 +34,21 @@ const Winter = ({ isMobile }) => {
         <mesh ref={mesh}>
             <ambientLight intensity={-0.2} />
             <hemisphereLight intensity={0.5} groundColor='black' castShadow />
-            {/* <spotLight
-                position={[-20, 50, 10]}
-                angle={0.12}
-                penumbra={1}
-                intensity={1}
-                castShadow
-                shadow-mapSize={1024}
-            /> */}
             <directionalLight
                 castShadow
                 shadow-mapSize-height={512}
-                // position={[0, 0, 5]}
                 shadow-mapSize-width={512}
-                position={isMobile ? [-20, 5, 25] : [-30, 10, 25]} // Set the direction of the light (X, Y, Z)
-                intensity={0.3} // Adjust the intensity as needed
-                color={0xffffff} // Light color (white)
+                position={isMobile ? [-20, 5, 25] : [-30, 10, 25]}
+                intensity={0.3}
+                color={0xffffff}
             />
             <directionalLight
                 castShadow
                 shadow-mapSize-height={512}
-                // position={[0, 0, 5]}
                 shadow-mapSize-width={512}
-                position={isMobile ? [0, 0, -10] : [0, 0, -10]} // Set the direction of the light (X, Y, Z)
-                intensity={0.1} // Adjust the intensity as needed
-                color={0xffffff} // Light color (white)
+                position={isMobile ? [0, 0, -10] : [0, 0, -10]}
+                intensity={0.1}
+                color={0xffffff}
             />
             <spotLight intensity={1} angle={1} penumbra={1} position={[20, 15, 10]} castShadow />
             <pointLight intensity={0.5} position={isMobile ? [0, -1.1, 0] : [0, 0.1, 0]} />
@@ -85,18 +74,18 @@ const WinterCanvas = () => {
         // Add a listener
         const mediaQuery = window.matchMedia("(max-width: 500px)");
 
-        // Set the initial value for 'isMovile'
+        // Set the initial value for 'isMobile'
         setIsMobile(mediaQuery.matches);
 
-        // Define a callback function to handle changes to the media query
+        // Define a callback function
         const handleMediaQueryChange = (event) => {
             setIsMobile(event.matches);
         };
 
-        // Add the callback function as a listener for changes to the media query
+        // Add the callback function as a listener
         mediaQuery.addEventListener("change", handleMediaQueryChange);
 
-        // Remove the listener when the component is unmounted
+        // Remove the listener
         return () => {
             mediaQuery.removeEventListener("change", handleMediaQueryChange);
         };
@@ -119,8 +108,6 @@ const WinterCanvas = () => {
                 <Winter isMobile={isMobile} />
                 <Snow isMobile={isMobile} />
             </Suspense>
-
-
             <Preload all />
         </Canvas >
     );

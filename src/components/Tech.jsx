@@ -25,11 +25,6 @@ const Tech = () => {
         <h2 className={`${styles.skillsHeadText} justify-center flex md:justify-center md:flex items-center lg:flex-none lg:justify-normal`}>Languages</h2>
       </motion.div>
 
-      {/* <motion.div
-        // variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-        // className='mt-4 text-secondary text-[17px] full-width leading-[30px] items-center lg:flex lg:justify-normal lg:flex-row md:justify-center md:flex-col sm:flex-col'
-        className="mt-4 text-secondary text-[17px] flex items-center"
-      > */}
       <div className="full-width items-center justify-center flex flex-wrap">
         {languages.map((language, index) => (
           <SkillIcon
@@ -39,18 +34,14 @@ const Tech = () => {
           />
         ))}
       </div>
-      {/* </motion.div> */}
+
 
       <div className="py-5"></div>
+
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.skillsHeadText} justify-center flex md:justify-center md:flex lg:flex-none lg:justify-normal`}>Tools & Technologies</h2>
       </motion.div>
 
-      {/* <motion.div
-        // variants={fadeIn("", "", 0.1, 1)}
-        // className='mt-4 text-secondary text-[17px] full-width leading-[30px] items-center lg:flex lg:justify-normal lg:flex-row md:justify-center md:flex-col sm:flex-col'
-        className="mt-4 text-secondary text-[17px] flex items-center"
-      > */}
       <div className="full-width items-center justify-center flex flex-wrap">
         {technologies.map((tech, index) => (
           <SkillIcon
@@ -60,8 +51,6 @@ const Tech = () => {
           />
         ))}
       </div>
-
-      {/* </motion.div> */}
     </div>
   )
 }

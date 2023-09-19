@@ -40,9 +40,8 @@ const Hero = () => {
           <p className={`${styles.heroAnimatedText} mt-2 text-white-100`}>
             <TypeAnimation
               sequence={[
-                // Same substring at the start will only be typed out once, initially
                 'Software Developer',
-                3000, // wait 1s before replacing "Mice" with "Hamsters"
+                3000,
                 'Full-Stack Developer',
                 3000,
                 'iOS Developer',
@@ -77,9 +76,6 @@ const Hero = () => {
       <div className='relative w-full h-screen mx-auto z-0'>
         <WinterCanvas />
       </div>
-      {/* <WinterCanvas /> */}
-
-      {/* <WinterCanvas /> */}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center z-10'>
         <a href='#about'>

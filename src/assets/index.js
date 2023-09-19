@@ -10,6 +10,7 @@ import ForTwo from "./fortwo.png"
 import FiTracker from "./FiTracker.png"
 import COVID6ix from "./COVID6ix.png"
 import Hatch from "./company/hatch.png"
+import Picture from "./sunglasses.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -51,4 +52,5 @@ export {
   FiTracker,
   COVID6ix,
   Hatch,
+  Picture,
 };

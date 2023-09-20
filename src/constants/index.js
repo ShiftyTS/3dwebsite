@@ -74,14 +74,6 @@ const languages = [
         icon: typescript,
     },
     {
-        name: "HTML",
-        icon: html,
-    },
-    {
-        name: "CSS",
-        icon: css,
-    },
-    {
         name: "Swift",
         icon: Swift,
     },
@@ -100,6 +92,14 @@ const languages = [
     {
         name: "Java",
         icon: Java,
+    },
+    {
+        name: "HTML",
+        icon: html,
+    },
+    {
+        name: "CSS",
+        icon: css,
     },
 ];
 

@@ -26,7 +26,7 @@ const About = () => {
           <br />
           Hobbies: Gaming, Personal Fitness, Playing Piano, Exploring New Music
           <br />
-          Areas of Interest: Full-Stack Development, iOS Development, Web Development, Artificial Intelligence, Algorithm
+          Areas of Interest: Full-Stack Development, iOS Development, Web Development, Artificial Intelligence, Algorithms
 
         </p>
       </motion.div>

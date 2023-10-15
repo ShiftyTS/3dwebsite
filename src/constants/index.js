@@ -28,6 +28,7 @@ import {
     Linux,
     Swift,
     Csharp,
+    Python,
 } from "../assets";
 
 export const navLinks = [
@@ -76,6 +77,10 @@ const languages = [
     {
         name: "Swift",
         icon: Swift,
+    },
+    {
+        name: "Python",
+        icon: Python,
     },
     {
         name: "C",

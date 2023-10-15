@@ -38,6 +38,7 @@ import Firebase from "./tech/firebaseicon.svg";
 import Java from "./tech/javaicon.svg";
 import Linux from "./tech/linuxicon.svg";
 import Swift from "./tech/swift.svg";
+import Python from "./tech/pythonicon.png"
 
 export {
   logo,
@@ -79,4 +80,5 @@ export {
   LinkedIn,
   GithubIcon,
   ResumePDF,
+  Python,
 };

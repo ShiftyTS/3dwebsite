@@ -9,7 +9,7 @@ export const textVariant = (delay) => {
             opacity: 1,
             transition: {
                 type: "spring",
-                duration: 1.25,
+                duration: 3,
                 delay: delay,
             },
         },
@@ -77,7 +77,8 @@ export const slideIn = (direction, type, delay, duration) => {
 
 export const staggerContainer = (staggerChildren, delayChildren) => {
     return {
-        hidden: {},
+        // hidden: {},
+
         show: {
             transition: {
                 staggerChildren: staggerChildren,

@@ -29,6 +29,8 @@ import {
     Swift,
     Csharp,
     Python,
+    Fidelity,
+    sql,
 } from "../assets";
 
 export const navLinks = [
@@ -67,20 +69,20 @@ const services = [
 
 const languages = [
     {
-        name: "JavaScript",
-        icon: javascript,
+        name: "Python",
+        icon: Python,
     },
     {
         name: "TypeScript",
         icon: typescript,
     },
     {
-        name: "Swift",
-        icon: Swift,
+        name: "JavaScript",
+        icon: javascript,
     },
     {
-        name: "Python",
-        icon: Python,
+        name: "SQL",
+        icon: sql,
     },
     {
         name: "C",
@@ -91,20 +93,16 @@ const languages = [
         icon: Cplusplus,
     },
     {
-        name: "C#",
-        icon: Csharp,
+        name: "Swift",
+        icon: Swift,
     },
     {
         name: "Java",
         icon: Java,
     },
     {
-        name: "HTML",
-        icon: html,
-    },
-    {
-        name: "CSS",
-        icon: css,
+        name: "C#",
+        icon: Csharp,
     },
 ];
 
@@ -146,15 +144,28 @@ const technologies = [
 
 const experiences = [
     {
+        title: "Software Engineer Intern",
+        company_name: "Fidelity Canada",
+        icon: Fidelity,
+        iconBg: "#e0e0e0",
+        date: "Jan 2024 - Apr 2024",
+        points: [
+            "Developed a document compliance screener using Python, AWS S3, and GPT-4, which automatically cross-references extracted info against an SQL database, resulting in annual savings of ~$45,000",
+            "Revamped a Python fund-factsheet checker cutting runtime by over 60%, optimizing SQL queries with strategic indexing, restructuring, and parameterization, and reducing redundancy across the codebase",
+            "Enhanced search relevance algorithms and implemented custom search filters for the internal employee directory using Elasticsearch, TypeScript, and React, enabling workers to look up colleagues more effectively",
+            "Fixed 45+ bugs and wrote unit tests and component tests using pytest, achieving a 90% code path coverage",
+        ],
+    },
+    {
         title: "Software Developer Intern",
         company_name: "Hatch Ltd.",
         icon: Hatch,
         iconBg: "#e0e0e0",
         date: "May 2023 - Aug 2023",
         points: [
-            "Developed an AI‑powered PDF chatbot MERN app that utilizes semantic search to accurately interpret user queries and contextual information, simplifying and reducing average manual search times by 35%",
-            "Built an intuitive UI in TypeScript using React and Tailwind CSS featuring file uploading and a real‑time chat window for users to engage in conversations with the uploaded PDFs",
-            "Powered the chatbot’s conversational capabilities by leveraging the Azure OpenAI API to produce and compare word embeddings generated from PDF text and user queries",
+            "Deployed a PDF chatbot app reducing average manual search times for engineers by 70%, featuring an intuitive UI with file uploading and chat history storage, built using the MERN stack, TypeScript, Tailwind CSS, and GPT-3.5",
+            "Built a machine learning model with PyTorch and GPT-3.5, using SpaCy text preprocessing, to classify safety reports and assign danger levels, enhancing processing time by over 50% for ~40,000 reports monthly",
+            "Enhanced security and access control for over 200 monitoring tool users by implementing OAuth 2.0 and JWT",
         ],
     },
     {
@@ -164,9 +175,8 @@ const experiences = [
         iconBg: "#e0e0e0",
         date: "July 2022 - Aug 2022",
         points: [
-            "Developed a dynamic Tkinter GUI in Python to streamline the usage of a smelting calibration tool",
-            "Created informative data visualizations using Matplotlib to simplify the interpretation of calibration results",
-            "Shipped an optimized version of a smelting calibration script which reduced execution time by 87.5% by integrating parallel processing",
+            "Utilized parallel programming in Python to reduce the runtime of time‑sensitive functions by 87.5%. Ensured thread safety and prevented data corruption by implementing synchronization mechanisms",
+            "Developed a dynamic Tkinter GUI in Python for a smelting calibration tool, seamlessly integrating informative visualizations with Matplotlib to reduce average manual data interpretation time by 55%",
         ],
     },
 ];
@@ -175,7 +185,7 @@ const projects = [
     {
         name: "ForTwo",
         description:
-            "ForTwo is a daily question‑answering activity iOS app geared towards couples to encourage communication and growth through thought-provoking questions.",
+            "A daily question‑answering activity app for iOS aimed at helping couples learn more about each other.",
         tags: [
             {
                 name: "Swift",
@@ -200,7 +210,7 @@ const projects = [
     {
         name: "FiTracker",
         description:
-            "FiTracker is a fitness-tracking MERN stack web application engineered to empower users to document workouts to better monitor their fitness journey.",
+            "A fitness-tracking MERN stack web application engineered to empower users to document workouts to better monitor their fitness journey.",
         tags: [
             {
                 name: "Javascript",

@@ -40,7 +40,7 @@ const Hero = () => {
           <p className={`${styles.heroAnimatedText} mt-2 text-white-100`}>
             <TypeAnimation
               sequence={[
-                'Software Developer',
+                'Software Engineer',
                 3000,
                 'Full-Stack Developer',
                 3000,

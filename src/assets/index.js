@@ -10,17 +10,19 @@ import ForTwo from "./ForTwo.png";
 import FiTracker from "./FiTracker.png";
 import COVID6ix from "./COVID6ix.png";
 import Hatch from "./company/hatch.png";
+import Fidelity from "./company/fid.png";
 import Picture from "./sunglasses.png";
 import Resume from "./resume.png";
 import Email from "./email.png";
 import LinkedIn from "./linkedin.png"
 import GithubIcon from "./githubicon.png"
-import ResumePDF from "./resumeexternal.pdf";
+import ResumePDF from "./Tao_Shen_Resume.pdf";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
+import sql from "./tech/sql.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
@@ -81,4 +83,6 @@ export {
   GithubIcon,
   ResumePDF,
   Python,
+  Fidelity,
+  sql,
 };

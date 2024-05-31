@@ -151,7 +151,7 @@ const experiences = [
         date: "Jan 2024 - Apr 2024",
         points: [
             "Developed a document compliance screener using Python, AWS S3, and GPT-4, which automatically cross-references extracted info against an SQL database, resulting in annual savings of ~$45,000",
-            "Revamped a Python fund-factsheet checker cutting runtime by over 60%, optimizing SQL queries with strategic indexing, restructuring, and parameterization, and reducing redundancy across the codebase",
+            "Created a Python fund-factsheet checker to validate data accuracy, optimizing SQL queries with strategic indexing, restructuring, and parameterization, enhancing processing efficiency by over 80%",
             "Enhanced search relevance algorithms and implemented custom search filters for the internal employee directory using Elasticsearch, TypeScript, and React, enabling workers to look up colleagues more effectively",
             "Fixed 45+ bugs and wrote unit tests and component tests using pytest, achieving a 90% code path coverage",
         ],

@@ -150,10 +150,7 @@ const experiences = [
         iconBg: "#e0e0e0",
         date: "Jan 2024 - Apr 2024",
         points: [
-            // "Built investment dashboards and endpoints with TypeScript, React, Node, and Express, using D3.js for real-time market data visualization and WebSocket protocols for low-latency updates for 85+ portfolio managers",
-            // "Developed a compliance screening tool in Python that fully automates the process of cross-referencing document info with an SQL database, powered by AWS services, resulting in annual savings of ∼$55,000",
-            // "Created a Python-based factsheet checker to ensure fund data accuracy, optimizing SQL queries with strategic indexing, restructuring, and parameterization, which enhanced processing efficiency by over 80%",
-            // "Fixed 45+ bugs and wrote unit tests and component tests using pytest, achieving a 90% code path coverage",
+
         ],
     },
     {
@@ -163,10 +160,7 @@ const experiences = [
         iconBg: "#e0e0e0",
         date: "May 2023 - Aug 2023",
         points: [
-            // "Deployed an internal chatbot using the MERN stack, TypeScript, and GPT-3.5, reducing average manual search times by 70% and keeping data secured through encrypted file uploads and JWT-based authentication",
-            // "Built a PyTorch machine learning model with SpaCy for text preprocessing to classify and assess safety hazard descriptions, enhancing the processing speed of ∼40,000 monthly hazard reports by over 60%",
-            // "Implemented parallel programming in Python to reduce the runtime of time-sensitive functions by 87.5% while ensuring thread safety and preventing data corruption through synchronization mechanisms",
-            // "Enhanced an internal data processing pipeline with Pandas to more efficiently handle large-scale sensor data, cutting processing time by 30% and improving the accuracy of digital twin simulations",
+
         ],
     },
     {
@@ -176,8 +170,7 @@ const experiences = [
         iconBg: "#e0e0e0",
         date: "July 2022 - Aug 2022",
         points: [
-            // "Developed GraphQL endpoints with Node and Apollo Server for a materials tracking system, reducing shortages by 20% through real-time queries for material availability, shipment status, and inventory levels",
-            // "Improved search relevance algorithms and implemented custom search filters for the internal employee directory using Elasticsearch, TypeScript, and React, enabling workers to connect and collaborate more effectively",
+
         ],
     },
 ];

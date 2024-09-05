@@ -144,39 +144,40 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Software Engineer Intern",
+        title: "Software Engineering Intern",
         company_name: "Fidelity Canada",
         icon: Fidelity,
         iconBg: "#e0e0e0",
         date: "Jan 2024 - Apr 2024",
         points: [
-            "Developed a document compliance screener using Python, AWS S3, and GPT-4, which automatically cross-references extracted info against an SQL database, resulting in annual savings of ~$45,000",
-            "Created a Python fund-factsheet checker to validate data accuracy, optimizing SQL queries with strategic indexing, restructuring, and parameterization, enhancing processing efficiency by over 80%",
-            "Enhanced search relevance algorithms and implemented custom search filters for the internal employee directory using Elasticsearch, TypeScript, and React, enabling workers to look up colleagues more effectively",
-            "Fixed 45+ bugs and wrote unit tests and component tests using pytest, achieving a 90% code path coverage",
+            // "Built investment dashboards and endpoints with TypeScript, React, Node, and Express, using D3.js for real-time market data visualization and WebSocket protocols for low-latency updates for 85+ portfolio managers",
+            // "Developed a compliance screening tool in Python that fully automates the process of cross-referencing document info with an SQL database, powered by AWS services, resulting in annual savings of ∼$55,000",
+            // "Created a Python-based factsheet checker to ensure fund data accuracy, optimizing SQL queries with strategic indexing, restructuring, and parameterization, which enhanced processing efficiency by over 80%",
+            // "Fixed 45+ bugs and wrote unit tests and component tests using pytest, achieving a 90% code path coverage",
         ],
     },
     {
-        title: "Software Developer Intern",
+        title: "Software Engineering Intern",
         company_name: "Hatch Ltd.",
         icon: Hatch,
         iconBg: "#e0e0e0",
         date: "May 2023 - Aug 2023",
         points: [
-            "Deployed a PDF chatbot app reducing average manual search times for engineers by 70%, featuring an intuitive UI with file uploading and chat history storage, built using the MERN stack, TypeScript, Tailwind CSS, and GPT-3.5",
-            "Built a machine learning model with PyTorch and GPT-3.5, using SpaCy text preprocessing, to classify safety reports and assign danger levels, enhancing processing time by over 50% for ~40,000 reports monthly",
-            "Enhanced security and access control for over 200 monitoring tool users by implementing OAuth 2.0 and JWT",
+            // "Deployed an internal chatbot using the MERN stack, TypeScript, and GPT-3.5, reducing average manual search times by 70% and keeping data secured through encrypted file uploads and JWT-based authentication",
+            // "Built a PyTorch machine learning model with SpaCy for text preprocessing to classify and assess safety hazard descriptions, enhancing the processing speed of ∼40,000 monthly hazard reports by over 60%",
+            // "Implemented parallel programming in Python to reduce the runtime of time-sensitive functions by 87.5% while ensuring thread safety and preventing data corruption through synchronization mechanisms",
+            // "Enhanced an internal data processing pipeline with Pandas to more efficiently handle large-scale sensor data, cutting processing time by 30% and improving the accuracy of digital twin simulations",
         ],
     },
     {
-        title: "Software Developer Intern",
+        title: "Software Engineering Intern",
         company_name: "Hatch Ltd.",
         icon: Hatch,
         iconBg: "#e0e0e0",
         date: "July 2022 - Aug 2022",
         points: [
-            "Utilized parallel programming in Python to reduce the runtime of time‑sensitive functions by 87.5%. Ensured thread safety and prevented data corruption by implementing synchronization mechanisms",
-            "Developed a dynamic Tkinter GUI in Python for a smelting calibration tool, seamlessly integrating informative visualizations with Matplotlib to reduce average manual data interpretation time by 55%",
+            // "Developed GraphQL endpoints with Node and Apollo Server for a materials tracking system, reducing shortages by 20% through real-time queries for material availability, shipment status, and inventory levels",
+            // "Improved search relevance algorithms and implemented custom search filters for the internal employee directory using Elasticsearch, TypeScript, and React, enabling workers to connect and collaborate more effectively",
         ],
     },
 ];
